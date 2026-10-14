@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+<title id="title">Prasanna Poigey — Engineering imagination into reality</title>
+<desc id="desc">Original anime-inspired young developer with dark spiky hair and a blue-lit robot in a neon engineering studio at sunset.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090d1b"/><stop offset=".55" stop-color="#11153a"/><stop offset="1" stop-color="#4b1d68"/></linearGradient>
+  <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffb86c"/><stop offset="1" stop-color="#e655a5"/></linearGradient>
+  <linearGradient id="coat" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#15264c"/><stop offset="1" stop-color="#090d19"/></linearGradient>
+  <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f3f6ff"/><stop offset="1" stop-color="#7b8dae"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#2fe7ff" stop-opacity=".5"/><stop offset="1" stop-color="#2fe7ff" stop-opacity="0"/></radialGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+  <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#02040d" flood-opacity=".6"/></filter>
+</defs>
+<rect width="1200" height="430" rx="22" fill="url(#bg)"/>
+<circle cx="964" cy="132" r="160" fill="url(#sun)" opacity=".85"/>
+<circle cx="964" cy="132" r="210" fill="#ff7eb5" opacity=".18" filter="url(#blur)"/>
+<path d="M0 268 L100 220 175 250 255 174 335 254 430 208 520 270 610 223 720 266 820 205 910 275 1050 214 1200 254 V430 H0Z" fill="#171735" opacity=".85"/>
+<g opacity=".42" stroke="#46d9ff" stroke-width="2">
+<path d="M0 350H1200M0 380H1200M0 410H1200M80 275V430M155 275V430M230 275V430M305 275V430M380 275V430M455 275V430M530 275V430M605 275V430M680 275V430M755 275V430M830 275V430M905 275V430M980 275V430M1055 275V430M1130 275V430"/>
+</g>
+<g opacity=".6" fill="#10152e">
+<rect x="830" y="204" width="28" height="106" rx="4"/><rect x="870" y="225" width="24" height="85" rx="4"/><rect x="907" y="192" width="30" height="118" rx="4"/><rect x="954" y="214" width="25" height="96" rx="4"/><rect x="1000" y="188" width="28" height="122" rx="4"/><rect x="1040" y="223" width="32" height="87" rx="4"/><rect x="1092" y="204" width="23" height="106" rx="4"/>
+</g>
+<ellipse cx="830" cy="326" rx="250" ry="130" fill="url(#glow)"/>
+<!-- workstation -->
+<path d="M500 335 L1120 335 L1200 430H420Z" fill="#0a1024" stroke="#273b6a" stroke-width="3"/>
+<path d="M520 348H1120" stroke="#30dcff" stroke-width="3" opacity=".8"/>
+<g filter="url(#shadow)">
+<!-- character hoodie torso -->
+<path d="M630 292 Q670 263 714 276 L785 302 Q825 328 835 430H576 Q585 338 630 292Z" fill="url(#coat)" stroke="#304a87" stroke-width="3"/>
+<path d="M664 293 L701 329 739 292 764 430H632Z" fill="#122448"/>
+<path d="M682 292 L700 318 717 293" fill="none" stroke="#43dfff" stroke-width="4"/>
+<!-- neck and face -->
+<path d="M672 216 L673 271 Q704 294 735 263 L726 210Z" fill="#edb18d"/>
+<path d="M630 152 Q628 92 690 82 Q755 84 767 152 L752 212 Q738 249 699 254 Q657 242 642 204Z" fill="#f4c2a0"/>
+<!-- ears -->
+<ellipse cx="638" cy="178" rx="15" ry="22" fill="#e8ac8b"/><ellipse cx="759" cy="178" rx="14" ry="21" fill="#e8ac8b"/>
+<!-- hair -->
+<path d="M625 171 Q605 134 631 106 L615 91 649 97 640 62 671 85 680 49 704 79 731 58 727 91 765 75 750 111 Q777 132 767 173 L750 145 739 119 715 137 704 113 680 138 661 121 647 155Z" fill="#111525" stroke="#28334c" stroke-width="3"/>
+<path d="M642 111L659 92M674 96L690 75M714 102L741 88" stroke="#58617b" stroke-width="4" opacity=".75"/>
+<!-- eyes -->
+<path d="M651 169 Q671 153 689 170 Q672 189 653 173Z" fill="#fff8ef"/><path d="M713 170 Q733 153 749 168 Q733 188 715 173Z" fill="#fff8ef"/>
+<ellipse cx="672" cy="171" rx="7" ry="10" fill="#16b8e9"/><ellipse cx="731" cy="170" rx="7" ry="10" fill="#16b8e9"/><circle cx="673" cy="170" r="3" fill="#10172a"/><circle cx="732" cy="169" r="3" fill="#10172a"/>
+<path d="M648 158L688 159M710 158L751 157" stroke="#222238" stroke-width="6" stroke-linecap="round"/>
+<path d="M690 205 Q703 214 717 202" fill="none" stroke="#a95762" stroke-width="3" stroke-linecap="round"/>
+<path d="M693 180L687 198 700 200" fill="none" stroke="#cc8a7b" stroke-width="2"/>
+<!-- fringe -->
+<path d="M633 154Q637 117 658 109L654 148 681 118 686 147 712 111 714 143 740 112 750 151 766 136 761 169 744 156 732 146 709 159 693 145 673 157 654 146Z" fill="#171b2b"/>
+<!-- device/screen -->
+<path d="M431 282 Q432 267 449 267H632L658 354H451Z" fill="#11192f" stroke="#48dbff" stroke-width="3"/>
+<path d="M448 284H618L637 339H465Z" fill="#202b55"/>
+<path d="M462 300H543M462 311H575M462 322H530" stroke="#3be7fa" stroke-width="4" stroke-linecap="round"/>
+<circle cx="592" cy="310" r="14" fill="#8a5bff"/><path d="M586 310L591 315 600 304" fill="none" stroke="#fff" stroke-width="3"/>
+<!-- arms -->
+<path d="M600 313Q626 318 653 336L703 354Q715 363 705 375Q698 384 680 377L625 358Q597 347 586 336Z" fill="#0e1932" stroke="#263b71" stroke-width="3"/>
+<path d="M752 318Q785 327 800 346L831 369Q840 383 827 391Q816 399 801 385L763 360 735 348Z" fill="#111c38" stroke="#263b71" stroke-width="3"/>
+</g>
+<!-- little companion robot -->
+<g transform="translate(914 248)" filter="url(#shadow)">
+<ellipse cx="8" cy="137" rx="69" ry="16" fill="#020612" opacity=".65"/>
+<path d="M-43 72L-55 113Q-53 123-41 121L-18 91M45 72L60 109Q59 120 47 119L27 91" fill="none" stroke="#bcc9e3" stroke-width="13" stroke-linecap="round"/>
+<path d="M-27 80L-34 125M29 80L35 125" stroke="#8395b8" stroke-width="16" stroke-linecap="round"/>
+<rect x="-58" y="13" width="116" height="82" rx="26" fill="url(#metal)" stroke="#d6e2ff" stroke-width="3"/>
+<rect x="-47" y="26" width="94" height="51" rx="18" fill="#091429" stroke="#46dfff" stroke-width="3"/>
+<ellipse cx="-22" cy="51" rx="10" ry="13" fill="#26e6ff"/><ellipse cx="22" cy="51" rx="10" ry="13" fill="#26e6ff"/>
+<circle cx="-22" cy="49" r="4" fill="#fff"/><circle cx="22" cy="49" r="4" fill="#fff"/>
+<path d="M-12 66Q0 73 12 66" fill="none" stroke="#a38aff" stroke-width="3" stroke-linecap="round"/>
+<rect x="-42" y="-3" width="84" height="22" rx="11" fill="#c5d1ea" stroke="#e7f1ff" stroke-width="3"/>
+<circle cx="0" cy="8" r="7" fill="#49e6ff"/>
+<path d="M-27 12L-39 -5M27 12L39 -5" stroke="#e7f1ff" stroke-width="7" stroke-linecap="round"/>
+<path d="M-65 46L-78 60M65 46L78 60" stroke="#9baed0" stroke-width="10" stroke-linecap="round"/>
+<circle cx="-78" cy="62" r="8" fill="#32e2ff"/><circle cx="78" cy="62" r="8" fill="#32e2ff"/>
+</g>
+<!-- copy -->
+<g font-family="Inter,Segoe UI,Arial,sans-serif">
+<text x="54" y="77" fill="#60dcff" font-size="20" font-weight="700" letter-spacing="5">ENGINEER • BUILDER • DREAMER</text>
+<text x="50" y="151" fill="#ffffff" font-size="58" font-weight="800">PRASANNA</text>
+<text x="53" y="203" fill="#c7c9ff" font-size="30" font-weight="600">Poigey</text>
+<rect x="54" y="228" width="354" height="2" fill="#8c63ff"/>
+<text x="55" y="261" fill="#e9edff" font-size="19">Embedded systems, IoT, robotics</text>
+<text x="55" y="290" fill="#e9edff" font-size="19">and software made for the real world.</text>
+<g font-size="13" font-weight="700">
+<rect x="54" y="319" width="90" height="32" rx="16" fill="#312165" stroke="#9c75ff"/><text x="99" y="340" text-anchor="middle" fill="#eee8ff">+ BUILD</text>
+<rect x="152" y="319" width="100" height="32" rx="16" fill="#12344a" stroke="#2ce2ff"/><text x="202" y="340" text-anchor="middle" fill="#d4faff">+ CREATE</text>
+<rect x="260" y="319" width="94" height="32" rx="16" fill="#4b1e42" stroke="#ff8cc9"/><text x="307" y="340" text-anchor="middle" fill="#ffe5f4">+ IMPACT</text>
+</g>
+<text x="56" y="390" fill="#78e8ff" font-size="16" font-style="italic">Curiosity → prototypes → real-world solutions</text>
+<text x="850" y="51" fill="#ffffff" font-size="14" opacity=".9" letter-spacing="3">FUTURE IN PROGRESS</text>
+</g>
+<rect x="1.5" y="1.5" width="1197" height="427" rx="21" fill="none" stroke="#6685ff" stroke-opacity=".65" stroke-width="3"/>
+</svg>
