@@ -11,7 +11,7 @@
   <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#02040d" flood-opacity=".6"/></filter>
 </defs>
 <rect width="1200" height="430" rx="22" fill="url(#bg)"/>
-<circle cx="964" cy="132" r="160" fill="url(#sun)" opacity=".85"/>
+<circle cx="964" cy="132" r="160" fill="url(#sun)" opacity=".85"><animate attributeName="opacity" values=".68;.96;.68" dur="5s" repeatCount="indefinite"/></circle>
 <circle cx="964" cy="132" r="210" fill="#ff7eb5" opacity=".18" filter="url(#blur)"/>
 <path d="M0 268 L100 220 175 250 255 174 335 254 430 208 520 270 610 223 720 266 820 205 910 275 1050 214 1200 254 V430 H0Z" fill="#171735" opacity=".85"/>
 <g opacity=".42" stroke="#46d9ff" stroke-width="2">
@@ -20,7 +20,7 @@
 <g opacity=".6" fill="#10152e">
 <rect x="830" y="204" width="28" height="106" rx="4"/><rect x="870" y="225" width="24" height="85" rx="4"/><rect x="907" y="192" width="30" height="118" rx="4"/><rect x="954" y="214" width="25" height="96" rx="4"/><rect x="1000" y="188" width="28" height="122" rx="4"/><rect x="1040" y="223" width="32" height="87" rx="4"/><rect x="1092" y="204" width="23" height="106" rx="4"/>
 </g>
-<ellipse cx="830" cy="326" rx="250" ry="130" fill="url(#glow)"/>
+<ellipse cx="830" cy="326" rx="250" ry="130" fill="url(#glow)"><animate attributeName="opacity" values=".35;.85;.35" dur="3s" repeatCount="indefinite"/></ellipse>
 <!-- workstation -->
 <path d="M500 335 L1120 335 L1200 430H420Z" fill="#0a1024" stroke="#273b6a" stroke-width="3"/>
 <path d="M520 348H1120" stroke="#30dcff" stroke-width="3" opacity=".8"/>
@@ -55,13 +55,13 @@
 <path d="M752 318Q785 327 800 346L831 369Q840 383 827 391Q816 399 801 385L763 360 735 348Z" fill="#111c38" stroke="#263b71" stroke-width="3"/>
 </g>
 <!-- little companion robot -->
-<g transform="translate(914 248)" filter="url(#shadow)">
+<g transform="translate(914 248)" filter="url(#shadow)"><animateTransform attributeName="transform" type="translate" values="914 248;914 240;914 248" dur="2.6s" repeatCount="indefinite"/>
 <ellipse cx="8" cy="137" rx="69" ry="16" fill="#020612" opacity=".65"/>
 <path d="M-43 72L-55 113Q-53 123-41 121L-18 91M45 72L60 109Q59 120 47 119L27 91" fill="none" stroke="#bcc9e3" stroke-width="13" stroke-linecap="round"/>
 <path d="M-27 80L-34 125M29 80L35 125" stroke="#8395b8" stroke-width="16" stroke-linecap="round"/>
 <rect x="-58" y="13" width="116" height="82" rx="26" fill="url(#metal)" stroke="#d6e2ff" stroke-width="3"/>
 <rect x="-47" y="26" width="94" height="51" rx="18" fill="#091429" stroke="#46dfff" stroke-width="3"/>
-<ellipse cx="-22" cy="51" rx="10" ry="13" fill="#26e6ff"/><ellipse cx="22" cy="51" rx="10" ry="13" fill="#26e6ff"/>
+<ellipse cx="-22" cy="51" rx="10" ry="13" fill="#26e6ff"><animate attributeName="ry" values="13;2;13" dur="4.5s" repeatCount="indefinite" keyTimes="0;.08;.16"/></ellipse><ellipse cx="22" cy="51" rx="10" ry="13" fill="#26e6ff"><animate attributeName="ry" values="13;2;13" dur="4.5s" repeatCount="indefinite" keyTimes="0;.08;.16"/></ellipse>
 <circle cx="-22" cy="49" r="4" fill="#fff"/><circle cx="22" cy="49" r="4" fill="#fff"/>
 <path d="M-12 66Q0 73 12 66" fill="none" stroke="#a38aff" stroke-width="3" stroke-linecap="round"/>
 <rect x="-42" y="-3" width="84" height="22" rx="11" fill="#c5d1ea" stroke="#e7f1ff" stroke-width="3"/>
@@ -84,7 +84,7 @@
 <rect x="260" y="319" width="94" height="32" rx="16" fill="#4b1e42" stroke="#ff8cc9"/><text x="307" y="340" text-anchor="middle" fill="#ffe5f4">+ IMPACT</text>
 </g>
 <text x="56" y="390" fill="#78e8ff" font-size="16" font-style="italic">Curiosity → prototypes → real-world solutions</text>
-<text x="850" y="51" fill="#ffffff" font-size="14" opacity=".9" letter-spacing="3">FUTURE IN PROGRESS</text>
+<text x="850" y="51" fill="#ffffff" font-size="14" opacity=".9" letter-spacing="3">FUTURE IN PROGRESS<tspan><animate attributeName="opacity" values=".4;1;.4" dur="2.8s" repeatCount="indefinite"/></tspan></text>
 </g>
 <rect x="1.5" y="1.5" width="1197" height="427" rx="21" fill="none" stroke="#6685ff" stroke-opacity=".65" stroke-width="3"/>
 </svg>
