@@ -1,14 +1,12 @@
 <!--
   Prasanna Poigey | Developer profile
   Repository: github.com/pojge2005/Prasanna-Profile
-  Original anime-inspired artwork; no third-party anime character assets.
+  Original anime-inspired artwork with animated SVG lighting and a floating robot companion.
 -->
 
 <div align="center">
 
-<img src="assets/profile-hero.svg" alt="Prasanna — Engineering imagination into reality" width="100%" />
-
-<img src="assets/avatar-expressions.svg" alt="Original anime avatar expressions: normal, happy, focused, surprised" width="100%" />
+<img src="assets/profile-hero.svg" alt="Prasanna — Engineering imagination into reality; animated neon studio and floating robot companion" width="100%" />
 
 <a href="https://github.com/pojge2005"><img src="https://komarev.com/ghpvc/?username=pojge2005&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS" alt="Profile views" /></a>
 <a href="https://github.com/pojge2005?tab=followers"><img src="https://img.shields.io/github/followers/pojge2005?style=for-the-badge&logo=github&label=FOLLOWERS&color=0891b2" alt="GitHub followers" /></a>
